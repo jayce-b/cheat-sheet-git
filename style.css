@@ -1,0 +1,77 @@
+*
+{
+	color: #1D5869
+}
+
+h1
+{
+	text-align: center;
+	font-family: arial;
+	padding-top: 2%;
+
+}
+
+h2
+{
+	text-align: center;
+	font-family: arial;
+	padding-top: 2%;
+}
+
+.style1
+{
+	text-align: left;
+	font-family: sans-serif;
+	padding-top: 1%;
+}
+
+.style2
+{
+	text-align: center;
+	font-family: sans-serif;
+	padding-top: 1%;
+}
+
+.style3
+{
+	text-align: center;
+	font-family: sans-serif;
+	padding-top: 1%;
+}
+
+.style4
+{
+	text-align: center;
+	font-family: sans-serif;
+	padding-top: 1%;
+
+}
+
+span
+{
+	font-weight: bold;
+}
+
+
+div
+{
+
+	text-align:center;
+	font-style: oblique;
+	font-size: 0.75em;
+	font-family: verdana;
+}
+
+footer
+{
+	text-align: right;
+	font-style: oblique;
+	padding: 5%;
+	font-size: 0.75em;
+	font-family: verdana;
+}
+
+.bold
+{
+	font-weight:bold;
+}
