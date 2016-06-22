@@ -34,27 +34,92 @@
 								<li>cliquer sur créer un dépôt</li>
 							</ul>
 					</ol>
+
 				</section>
 
 			<h2>Les Commandes de Base</h2>
 
 				<section>
-					<p><span>git clone [URL]</span>récupère le dépôt à partir d'une adresse URL</p>
+					<p><span>git clone [URL]</span> récupère le dépôt à partir d'une adresse URL</p>
 
-					<p><span>git add [fichier]</span>marque le fichier à consigner</p>
+					<p><span>git add [fichier]</span> marque le fichier à consigner</p>
 
-					<p><span>git add *</span>marque tous les fichiers à consigner</p>
+					<p><span>git add *</span> marque tous les fichiers à consigner</p>
 
-					<p><span>git commit -m</span>consigne les fichiers marqués dans le dépôt</p>
+					<p><span>git commit -m</span> consigne les fichiers marqués dans le dépôt</p>
 
-					<p><span>git status</span>affiche l'état du dépôt local</p>
+					<p><span>git status</span> affiche l'état du dépôt local</p>
 
-					<p><span>git push origin master</span>envoie les fichiers modifiés sur le dépôt principal</p>
+					<p><span>git push origin master</span> envoie les fichiers modifiés sur le dépôt principal</p>
 
 				</section>	
-				
+
+				</section>
+
+			<h2>Encore plus sur Git</h2>
+<!--des commandes un peu moins utilisées pour le moment - à compléter par la suite si besoin-->
+				<section>
+					<p><span>git reset --hard HEAD~1</span> supprime la dernière modification consignée (avant d'avoir fait un push)</p>
+
+					<p><span>git log</span> affiche l'historique des commandes (q pour sortir)</p>
+
+					<p><span>git config --list</span> affiche la liste des paramètres de git</p>
+
+					<p><span>git config --global [username]</span> enregistre le paramètre "nom utilisateur" du dépôt</p>
+
+					<p><span>git config --global [useremail]</span> enregistre l'email de l'utilisateur du dépôt</p>
+
+				</section>	
 
 
+				</section>
+
+			<h2>Dico Eng/Fr du jargon Git</h2>
+<!--traductions pour write english dans les commit-->
+				<section>
+
+					<p><span>repository</span> dépôt</p>
+					
+					<p><span>to check in</span> déposer,remettre/faire un dépôt<</p>
+					
+					<p><span>to check out</span> retirer,rapatrier,récupérer</p>
+					
+					<p><span>to commit</span> consigner</p>
+					
+					<p><span>stage area</span> zone d'attente</p>
+					
+					<p><span>to stage</span> mettre en attente</p>
+					
+					<p><span>change</span> modification</p>
+					
+					<p><span>stash</span> remise</p>
+					
+					<p><span>to stash</span> remiser</p>
+					
+					<p><span>checksum</span> somme de contrôle</p>
+					
+					<p><span>hash</span> empreinte(ou signature)</p>
+					
+					<p><span>workflow</span> processus</p>
+					
+					<p><span>snapshot</span> instantané</p>
+					
+					<p><span>diff</span> différence</p>
+					
+					<p><span>to track</span> suivre</p>
+					
+					<p><span>tracked/untracked</span> suivi/non suivi</p>
+					
+					<p><span>unmodified</span> non modifié</p>
+					
+					<p><span>to update</span> mettre à jour</p>
+					
+					<br>traductions issues de la version fr de ProGit de Scott Chacon (Git Book).</br>
+
+
+				</section>	
 	</body>
+
+	<footer>Source : www.cheatography.com par boissonfive</footer>
 
 </html>
